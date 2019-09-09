@@ -26,5 +26,5 @@
 - project: Exploratory Data Analysis on Brewery Data
   role: Member of 3 person team
   duration: 2019 
-  # url: "#"
+  url: "https://github.com/KaysData/Performance-Comparison"
   description: Imports CSV and has summary statistics and data visualizations built in R. Uses R markdown and knitr to make a html file with full results presentation. Includes a power point presentation with a subset of results.
