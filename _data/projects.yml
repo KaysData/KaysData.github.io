@@ -12,14 +12,14 @@
 - project: Performance Comparison of Three Algorithms
   role: sole contributer
   duration: 2017
-  # url: "https://github.com/KaysData/Performance-Comparison"
+  url: "https://github.com/KaysData/Performance-Comparison"
   description: Compared performance of SVM (linear and RBF), Decision trees, and K-nearest neighbors. Processed three datasets from the UC Irvine ML repository (wine production location estimation, wine quality classification, and breast cancer estimation). Written in python using NumPy and scikit-learn. Utilized cross-validation for all analysis.
   
 # Doubly Linked List in C 
 - project: Doubly Linked List in C 
   role: sole contributer
   duration: 2018
-  # url: "https://github.com/KaysData/Linked-List-in-C"
+  url: "https://github.com/KaysData/Linked-List-in-C"
   description: Wrote doubly linked list in C for Student Data. Handles file reading and writing and memory allocation/freeing. Produces student grade statistics.
 
 # EDA on Brewery Data
