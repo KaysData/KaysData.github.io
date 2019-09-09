@@ -3,15 +3,18 @@
 
 # Arabic OCR CNN
 - project: Arabic OCR CNN
+  role: sole contributer
   # url: "#"
   description: Classified Arabic handwritten character images with 93% accuracy. Used two convolutional layers each with their own pooling layer. Written in Tensorflow using Jupyter Notebook on Amazon Web Services (AWS) EC2.
 
 # Performance Comparison
 - project: Performance Comparison of Three Algorithms
+  role: sole contributer
   # url: "#"
   description: Compared performance of SVM (linear and RBF), Decision trees, and K-nearest neighbors. Processed three datasets from the UC Irvine ML repository (wine production location estimation, wine quality classification, and breast cancer estimation). Written in python using NumPy and scikit-learn. Utilized cross-validation for all analysis.
   
 # Springfield Community Outreach Group
 - project: Springfield Community Outreach Group
+  role: sole contributer
   # url: "#"
   description: SCOG is a local monthly meetup.
