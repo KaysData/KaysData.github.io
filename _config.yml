@@ -23,7 +23,7 @@ resume_contact_address:         "Novato, CA"
 resume_header_contact_info:     "Novato, CA  • 1(415) 328-9372 • kay-ayala@protonmail.com"
 display_header_contact_info:    "true"
 
-resume_header_intro: "<p>I'm a Data Science Master's student at Southern Methodist University. I'm currently looking for an internship or my first data science position. I'm most interested in applying existing machine learning and statistical models as well as building data visualizations. </p>"
+resume_header_intro: "<p>I'm a Data Science Master's student at Southern Methodist University. I'm currently looking for an internship or my first data science position. I'm most interested in applying existing machine learning and statistical models as well as building data visualizations. A printable version of this resume can be found at the far right icon above. </p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
