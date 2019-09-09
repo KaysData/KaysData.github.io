@@ -15,6 +15,13 @@
   url: "https://github.com/KaysData/Performance-Comparison"
   description: Compared performance of SVM (linear and RBF), Decision trees, and K-nearest neighbors. Processed three datasets from the UC Irvine ML repository (wine production location estimation, wine quality classification, and breast cancer estimation). Written in python using NumPy and scikit-learn. Utilized cross-validation for all analysis.
   
+# Markov Chord Progression Generator
+- project: Markov Chord Progression Generator
+  role: sole contributer
+  duration: 2019
+  url: "https://github.com/KaysData/Markov-Chord-Progression-Generator"
+  description: Creates and plays new chord progressions using a Markov chain. The dataset was built from listings of common  progressions. It is written in python using pyaudio for sound generation. 
+
 # Doubly Linked List in C 
 - project: Doubly Linked List in C 
   role: sole contributer
