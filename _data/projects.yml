@@ -4,23 +4,27 @@
 # Arabic OCR CNN
 - project: Arabic OCR CNN
   role: sole contributer
+  duration: 2018
   # url: "#"
   description: Classified Arabic handwritten character images with 93% accuracy. Used two convolutional layers each with their own pooling layer. Written in Tensorflow using Jupyter Notebook on Amazon Web Services (AWS) EC2.
 
 # Performance Comparison
 - project: Performance Comparison of Three Algorithms
   role: sole contributer
+  duration: 2017
   # url: "#"
   description: Compared performance of SVM (linear and RBF), Decision trees, and K-nearest neighbors. Processed three datasets from the UC Irvine ML repository (wine production location estimation, wine quality classification, and breast cancer estimation). Written in python using NumPy and scikit-learn. Utilized cross-validation for all analysis.
   
 # Doubly Linked List in C 
 - project: Doubly Linked List in C 
   role: sole contributer
+  duration: 2018
   # url: "#"
   description: Wrote doubly linked list in C for Student Data. Handles file reading and writing and memory allocation/freeing. Produces student grade statistics.
 
 # EDA on Brewery Data
 - project: Exploratory Data Analysis on Brewery Data
   role: Member of 3 person team
+  duration: 2019 
   # url: "#"
   description: Imports CSV and has summary statistics and data visualizations built in R. Uses R markdown and knitr to make a html file with full results presentation. Includes a power point presentation with a subset of results.
