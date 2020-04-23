@@ -23,11 +23,11 @@
   description: Creates and plays new chord progressions using a Markov chain. The dataset was built from listings of common  progressions. It is written in python using pyaudio for sound generation. 
 
 # Doubly Linked List in C 
-- project: Doubly Linked List in C 
-  role: sole contributer
-  duration: 2018
-  url: "https://github.com/KaysData/Linked-List-in-C"
-  description: Wrote doubly linked list in C for Student Data. Handles file reading and writing and memory allocation/freeing. Produces student grade statistics.
+#- project: Doubly Linked List in C 
+#  role: sole contributer
+#  duration: 2018
+#  url: "https://github.com/KaysData/Linked-List-in-C"
+#  description: Wrote doubly linked list in C for Student Data. Handles file reading and writing and memory allocation/freeing. Produces student grade statistics.
 
 # EDA on Brewery Data
 - project: Exploratory Data Analysis on Brewery Data
