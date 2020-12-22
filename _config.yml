@@ -1,6 +1,6 @@
 # Site settings
 title: "Kay's Portfolio"
-description: "A site containing Kay's Resume and Projects"
+description: "Kay's Resume"
 
 # Build settings
 markdown: kramdown
@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Kay Ayala"
-resume_title:                   "Data Science Master's Student"
+resume_title:                   "Data Scientist"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "kay-ayala@protonmail.com"
