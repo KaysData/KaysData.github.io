@@ -3,10 +3,14 @@
 - skill: Machine Learning and Statistical Analysis 
   description: Convolutional Neural Networks, GLMs, Time Series models, hypothesis testing, experimental design and analysis.
 
-# Software and Programming Languages
-- skill: Software and Programming Languages
+# Languages
+- skill: Languages
   description: Python, C, Java, SAS, R, Matlab, SQL.
-
+  
+# Languages
+- skill: Libraries
+  description: numpy, pandas, scipy, scikit learn, matplotlib, tensorflow, keras.
+  
 # Digital content development and creation
 - skill: Selected Coursework
   description: Brain Computer Interfaces, Neural Networks and Deep Learning, Supervised and Unsupervised Learning, Probability, and Statistics.
