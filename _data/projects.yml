@@ -21,17 +21,3 @@
   duration: 2019
   url: "https://github.com/KaysData/Markov-Chord-Progression-Generator"
   description: Creates and plays new chord progressions using a Markov chain. The dataset was built from listings of common  progressions. It is written in python using pyaudio for sound generation. 
-
-# Doubly Linked List in C 
-#- project: Doubly Linked List in C 
-#  role: sole contributer
-#  duration: 2018
-#  url: "https://github.com/KaysData/Linked-List-in-C"
-#  description: Wrote doubly linked list in C for Student Data. Handles file reading and writing and memory allocation/freeing. Produces student grade statistics.
-
-# EDA on Brewery Data
-- project: Exploratory Data Analysis on Brewery Data
-  role: Member of 3 person team
-  duration: 2019 
-  url: "https://github.com/KaysData/Performance-Comparison"
-  description: Imports CSV and has summary statistics and data visualizations built in R. Uses R markdown and knitr to make a html file with full results presentation. Includes a power point presentation with a subset of results.
