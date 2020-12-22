@@ -7,7 +7,7 @@
 - skill: Languages
   description: Python, C, Java, SAS, R, Matlab, SQL.
   
-# Languages
+# Libraries
 - skill: Libraries
   description: numpy, pandas, scipy, scikit learn, matplotlib, tensorflow, keras.
   
