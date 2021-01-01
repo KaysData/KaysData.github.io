@@ -19,7 +19,7 @@
 - project:Time Series Forecast of Bike Share Data
   role: Member of two person team
   duration: 2020
-  url: 
+  url: "https://github.com/KaysData/Time_Series_Bike_Share_Forecast"
   description: Compared performance of ARMA, ARIMA, VAR, NN, and VAR-ARMA Ensemble. Forecasted ridership. Written in R using tswge.
   
 # Markov Chord Progression Generator
