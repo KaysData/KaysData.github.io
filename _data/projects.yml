@@ -6,7 +6,7 @@
   role: sole contributer
   duration: 2018
   url: "https://github.com/KaysData/Arabic-Handwritten-Character-Classification-CNN"
-  description:  Classified Arabic handwritten character images with 93% accuracy. Utilized a convolutional neural network using Tensorflow. Implemented two convolutional layers each with their own pooling layer. Utilized python and Jupyter Notebooks on Amazon Web Services (AWS) EC2.
+  description: Classified Arabic handwritten character images with 93% accuracy. Utilized a convolutional neural network using Tensorflow. Implemented two convolutional layers each with their own pooling layer. Utilized python and Jupyter Notebooks on Amazon Web Services (AWS) EC2.
 
 # Project Nyx
 - project: Project Nyx
@@ -16,7 +16,7 @@
   description: Total project consisted of 23 people over 48 hours. Helped develop business objectives. Assisted in coordination between management and modeling teams. Assisted in data visualization and website design. Assisted in communicating between reporting and modeling teams.
   
 # Time Series Bike Forecast
-- project:Time Series Forecast of Bike Share Data
+- project: Time Series Forecast of Bike Share Data
   role: Member of two person team
   duration: 2020
   url: "https://github.com/KaysData/Time_Series_Bike_Share_Forecast"
