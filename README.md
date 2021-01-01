@@ -2,7 +2,7 @@
 
 This repository contains the files for https://kaysdata.github.io/
 
-For the word document version of my resume see  https://github.com/KaysData/KaysData.github.io/raw/master/Resume%209_9_2019.docx
+For the word document version of my resume see  https://github.com/KaysData/KaysData.github.io/blob/master/Resume%2012_31_2020.docx?raw=true
 
 credits:
 
