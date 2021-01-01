@@ -2,7 +2,7 @@
 
 This repository contains the files for my [Portfolio Website](https://kaysdata.github.io/)
 
-[Word document version of my resume](https://github.com/KaysData/KaysData.github.io/raw/master/Resume%2012_31_2020.docx)
+[Printable version of my resume](https://github.com/KaysData/KaysData.github.io/raw/master/Resume%01_01_2021.pdf)
 
 #### Credits
 
