@@ -1,7 +1,7 @@
 # Skills
 # Machine Learning and Statistical Analysis
 - skill: Machine Learning and Statistical Analysis 
-  description: Neural Networks, GLMs, Time Series models, hypothesis testing, experimental design and analysis.
+  description: Neural Networks, GLMs, Time Series models, hypothesis testing, experimental design and analysis, supervised and unsupervised learning, data visualization
 
 # Languages
 - skill: Languages
@@ -13,6 +13,5 @@
   
 # Coursework
 - skill: Selected Coursework
-  description: Brain Computer Interfaces BCI, Neural Networks and Deep Learning NN DL, Machine Learning ML, Probability, Statistics, Experimental Design, Natural Language Processing NLP, Time Series Analysis
-
+  description: Brain Computer Interfaces BCI, Neural Networks and Deep Learning NN DL, Machine Learning ML, Probability, Statistics, Experimental Design, Natural Language Processing NLP, Time Series Analysis, Data Visualization
 
