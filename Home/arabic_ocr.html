@@ -11,7 +11,8 @@
 	<title>Kay Ayala &mdash; Arabic OCR</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
-	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="keywords" content="free website templates, free html5,
+	 free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
 	<meta name="author" content="FreeHTML5.co" />
 
   	<!-- Facebook and Twitter integration -->
@@ -25,7 +26,8 @@
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
 
-	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400|Montserrat:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400|Montserrat:400,700" 
+	rel="stylesheet">
 	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -72,9 +74,12 @@
 								<a href="projects.html">Projects</a>
 								<ul class="dropdown">
 									<li><a href="arabic_ocr.html">Arabic OCR</a></li>
-									<li><a href="capital_bikeshare_forecast.html">Capital Bikeshare Forecast</a></li>
-									<li><a href="chord_generator.html">Markov Chain Chord Progression Generator</a></li>
-									<li><a href="performance_comparison_1.html">Performance Comparison of SVM, DT, and KNN</a></li>
+									<li><a href="capital_bikeshare_forecast.html">
+										Capital Bikeshare Forecast</a></li>
+									<li><a href="chord_generator.html">
+										Markov Chain Chord Progression Generator</a></li>
+									<li><a href="performance_comparison_1.html">
+										Performance Comparison of SVM, DT, and KNN</a></li>
 								</ul>
 							</li>
                             <!--
@@ -88,7 +93,8 @@
 								</ul>
 							</li>
                             -->
-							<li><a href="https://kaysdata.github.io/SiteTesting.github.io/">Resume</a></li>
+							<li><a href="https://kaysdata.github.io/SiteTesting.github.io/">
+								Resume</a></li>
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</div>
@@ -99,20 +105,146 @@
 
 		<div class="gtco-section">
 			<div class="gtco-container">
-                <!-- Attempting Image Add Here # TODO Needs to be resized and fit properly using html/css
-                <div class="item">
-				    <a href="arabic_ocr.html">
-				        <img src="images/Arabic_1.jpg" alt="Arabic OCR Project">
-                            <div class="slider-copy">
-                                <h2>Arabic OCR Project</h2>
-                            </div>
-                    </a>
-				</div>
-                -->
 				<div class="row gtco-heading">
 					<div class="col-md-7 text-left">
-						<h2><a href="https://github.com/KaysData/Arabic-Handwritten-Character-Classification-CNN">Arabic OCR</a></h2>
-						<p>Classified Arabic handwritten character images with 93% accuracy. Utilized a convolutional neural network using Tensorflow. Implemented two convolutional layers each with their own pooling layer. Utilized python and Jupyter Notebooks on Amazon Web Services (AWS) EC2.</p>
+						<h2><a href="https://github.com/KaysData/Arabic-Handwritten-Character-Classification-CNN">
+							Arabic OCR Project</a></h2>
+							<img src="images/3_panel_arabic_cropped_v2.jpg" alt="Arabic OCR Project"
+							width="900" height="551">
+							<p></p><!--extra line space for readability on page-->
+						<h2>Summary</h2>
+							<p>Classified Arabic handwritten character images with 93% accuracy. 
+								Utilized a convolutional neural network using Tensorflow.
+								Implemented two convolutional layers each with their own pooling layer.
+								Utilized python and Jupyter Notebooks on Amazon Web Services (AWS) EC2.</p>
+						<h2>Introduction</h2>
+							<p>Identifying handwritten characters is the first step in document digitization and machine translation. 
+								Here I will be discussing the architecture, hyper-parameters, and results of my Arabic OCR neural network.
+								This project was written in 2018 and was a proof-of-concept type project after completing my undergrad. </p>
+						<h2>The Data</h2>
+							<img src="images/Arabic_OCR_Project_Images/code_2.png" 
+							alt="Import Statements" width="500" height="351">
+							<p></p><!--extra line space for readability on page-->
+							<p>“The data-set is composed of 16,800 characters written by 60 participants,
+								the age range is between 19 to 40 years, and 90% of participants are right-hand. 
+								Each participant wrote each character (from ’alef’ to ’yeh’) ten times on 
+								two forms as shown in Fig. 7(a) & 7(b). The forms were scanned at the
+								resolution of 300 dpi. […] The database is partitioned into two sets:
+								a training set (13,440 characters to 480 images per class) and a 
+								test set (3,360 characters to 120 images per class). Writers of 
+								training set and test set are exclusive. Ordering of including 
+								writers to test set are randomized to make sure that writers of
+									test set are not from a single institution (to ensure variability 
+									of the test set).” - M. Loey(actually site the paper instead)</p>
+							<p>The data is imported and checked.</p>
+							<img src="images/Arabic_OCR_Project_Images/code_1.png" 
+								alt="Import Statements" width="650" height="76">
+							<img src="images/Arabic_OCR_Project_Images/code_4.png" 
+								alt="Import Statements" width="650" height="164">
+							<p></p><!--extra line space for readability on page-->
+							<p>While this is not a statistical analysis, it is important to 
+								consider how the results of the data may generalize based on
+								how the data was gathered. This data was not a random sample
+								of the population. However the question here is whether or 
+								not it was representative enough so that the real world 
+								performance will not significantly drop when deployed. 
+								I can only assume the institutions mentioned in the 
+								article are Benha University and Mansoura University 
+								in Egypt where the researchers were based at the time.
+								I’m assuming the handwriting in this dataset will 
+								roughly represent the demographics of those universities.
+									At this time I do not have further information to know 
+									if there is significant variability in the handwriting
+									styles of Arabic writers throughout Iraq, Saudi Arabia, 
+									Syria, Egypt and the rest of the Arabic speaking world. </p>
+							<a href="images/Arabic_OCR_Project_Images/Arabic_Speaking_Countries_Map.jpg">
+								<img src="images/Arabic_OCR_Project_Images/Arabic_Speaking_Countries_Map.jpg"
+									alt="Import Statements" width="800" height="639"> 
+							</a>
+							<small>Map Source</small>
+							<p>Yellow is where Arabic is spoken.</p>
+						<h2>Reformating Data</h2>
+							<p>The images are shuffled because they come in alphabetical order.</p>
+							<img src="images/Arabic_OCR_Project_Images/code_5.png" 
+								alt="Import Statements" width="650" height="203">
+							<p></p><!--extra line space for readability on page-->
+							<p>They are normalized to fall within the standard 0 
+								to 255 pixel brightness range for grey-scale images. </p>
+							<img src="images/Arabic_OCR_Project_Images/code_7.png"
+								alt="Import Statements" width="650" height="129"> 
+							<p></p><!--extra line space for readability on page-->
+							<p>The labels are one hot encoded. Unlike the English 
+								alphabet the Arabic alphabet has 28 letters. </p>
+							<img src="images/Arabic_OCR_Project_Images/code_8.png"
+								alt="Import Statements" width="650" height="183">
+							<p></p><!--extra line space for readability on page--> 
+							<p>The tools for splitting the data into batches and 
+								feeding them to the training process are set up. </p>
+							<img src="images/Arabic_OCR_Project_Images/code_9.png"
+								alt="Batch Function" width="650" height="373"> 
+							<img src="images/Arabic_OCR_Project_Images/code_11.png"
+								alt="Batch Feed" width="650" height="552"> 
+							<img src="images/Arabic_OCR_Project_Images/code_12.png"
+								alt="Batch Call" width="650" height="58"> 
+							<p></p><!--extra line space for readability on page-->
+						<h2>Model Architecture</h2>
+							<p>The structure of the neural network is very similar to LeNet-5.
+								There are a few key differences the pooling layers 
+								I used are max pooling instead of average pooling. 
+								The activation function used throughout the network 
+								is ReLU instead of Tanh. The first of the two fully 
+								connected layers uses dropout. The output layer is 
+								a softmax layer rather than a RBF (noted in the image
+								as Gaussian Connections). Here is a diagram of the
+								LeNet-5 architecture. 
+							</p>
+							<img src="images/Arabic_OCR_Project_Images/code_3.png" 
+								alt="Import Statements" width="800" height="229">
+							<p></p><!--extra line space for readability on page-->
+							<p>Set up the functions for how the layers will be built.</p>
+							<img src="images/Arabic_OCR_Project_Images/code_13.png" 
+								alt="Layer Functions" width="650" height="451">
+							<p></p><!--extra line space for readability on page-->
+							<p>Setting up the network architecture. Here I have 
+								convolutional layer 1, max pooling layer 1,
+								 convolutional layer 2, max pooling layer 2,
+								  fully connected layer 1, dropout on the 
+								  first fully connected layer, fully connected 
+								  layer 2, a softmax function, and then a 
+								  cross-entropy loss function. 
+							</p>
+							<img src="images/Arabic_OCR_Project_Images/code_14.png" 
+								alt="Layer Functions" width="650" height="114">	
+							<img src="images/Arabic_OCR_Project_Images/code_15.png" 
+								alt="Layer Functions" width="650" height="167">	
+							<img src="images/Arabic_OCR_Project_Images/code_16.png" 
+								alt="Layer Functions" width="899" height="38">	
+							<p></p><!--extra line space for readability on page-->
+						<h3>Optimizer</h3>
+							<p>Adam optimiser and cross entropy loss function setup. </p>	
+							<img src="images/Arabic_OCR_Project_Images/code_17.png" 
+								alt="Layer Functions" width="650" height="97">	
+							<p></p><!--extra line space for readability on page-->
+						<h2>Train and Save the Model!</h2>
+							<img src="images/Arabic_OCR_Project_Images/code_18.png" 
+								alt="Layer Functions" width="800" height="35">
+							<img src="images/Arabic_OCR_Project_Images/code_19.png" 
+								alt="Layer Functions" width="800" height="599">		
+							<p></p>
+						<h2>Results</h2>
+							<img src="images/Arabic_OCR_Project_Images/code_20.png" 
+								alt="Layer Functions" width="650" height="261">	
+							<p>The publishers of the dataset on Kaggle reported a 94.9%
+								 accuracy with a very similar architecture. They used 
+								 stochastic gradient descent instead of ADAM. For a 
+								 basic proof-of-concept model with no hyperparameter 
+								 tuning 93.3% is acceptable. However were this to be
+								  submitted to a competition or put into deployment
+								   hyperparameter tuning is essential. </p>
+						<h2>Future Work</h2>
+							<p>For a model like this to be put into production not only would there have to be improvements in order to make the accuracy competitive but also further information about the origins of the dataset would have to be found. 
+								For modern applications, I wouldn’t choose this kind of model for handwriting OCR. I would build a detection CNN (DCNN) instead. This would increase the versatility of the application and reduce implementation costs in terms of writing additional code to identify text and segment characters for labeling. Ideally this kind of model would be used in digitizing documents or as part of a machine translation mobile app. 
+								</p>
 					</div>
 				</div>
 			</div>
@@ -145,7 +277,16 @@
 							<p><small>&copy; 2016 Free HTML5. All Rights Reserved. </small></p>
 						</div>
 						<div class="col-md-6 text-right">
-							<p><small>Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://pixeden.com/" target="_blank">Pixeden</a> &amp; <a href="http://unsplash.com" target="_blank">Unsplash</a></small> </p>
+							<p>
+								<small>
+									Designed by
+									<a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> 
+									Demo Images: 
+									<a href="http://pixeden.com/" target="_blank">Pixeden</a>
+									&amp;
+								 	<a href="http://unsplash.com" target="_blank">Unsplash</a>
+								</small> 
+							</p>
 						</div>
 					</div>
 				</div>
