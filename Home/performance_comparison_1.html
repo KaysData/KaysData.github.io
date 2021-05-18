@@ -101,8 +101,151 @@
 			<div class="gtco-container">
 				<div class="row gtco-heading">
 					<div class="col-md-7 text-left">
-						<h2>Performance Comparison of SVM, DT, and KNN</h2>
-						<p>Compared performance of SVM, Decision trees DT, and K-nearest neighbors KNN. Evaluated three datasets from the UC Irvine ML repository (wine production location classification, wine quality classification, and breast cancer classification). Written in python using NumPy and scikit-learn.</p>
+						<h2>A Performance Comparison of Three Supervised Learning Algorithms</h2>
+						<a href="https://github.com/KaysData/Performance-Comparison/blob/master/Performance_Comparison_Write_Up.pdf"><small>See paper pdf here.</small></a> <!--TO DO! Add link to pdf of paper.-->
+						<a href="https://github.com/KaysData/Performance-Comparison"><small><br>See code here.</br></small></a> 
+						<br></br><h3>Abstract</h3>
+						<p>
+							This paper is a comparative analysis of three supervised 
+							learning algorithms on three datasets collected from the UCI machine 
+							learning repository. It attempts to replicate the study done by Caruana 
+							and Niculescu-Mizil (2006). The algorithms considered are SVM (linear 
+							and RBF kernels), Decision Tree, and KNN. These are evaluated using 
+							three datasets from the UC Irvine ML repository (wine production 
+							location classification, wine quality classification, and breast 
+							cancer classification). All analysis are written in python using NumPy 
+							and scikit-learn. 
+						</p>
+						<h3>Index Terms</h3>
+						<p>
+							SVM (Support Vector Machine),
+							 RBF (Radial Basis Function), 
+							 KNN (K-Nearest Neighbor), DT (Decision Tree). 
+						</p>
+						<h3>Introduction</h3>
+						<p>
+							This is a partial replication of a study done by Caruana and Niculescu-Mizil(2006) 
+							where-in they took a variety of algorithms available at that time and compared 
+							their performance on ~10 different datasets. In this study three algorithms 
+							from that paper were chosen, namely a SVM (Support Vector Machine), Decision 
+							Tree, and KNN (K-Nearest Neighbor). These were each run on three datasets 
+							from the UC (University of California) Irvine Machine Learning Repository. 
+							The datasets chosen were for predicting breast cancer, wine quality, and 
+							location of wine production. The use of multiple datasets allows for the 
+							generalization of the algorithm’s efficacy to a variety of real world 
+							problems. The metric used to determine efficacy is testing accuracy. 
+							In addition, three different training and testing set size ratios were 
+							used and the average error by algorithm over all datasets used in this 
+							study are presented. This is to illustrate the general trend presented 
+							by variation in the training and testing ratio.
+						</p>
+						<h3>Methods</h3>
+						<p>Three datasets were acquired from the UCI Machine Learning Repository. 
+							These were chosen for being datasets suited to supervised learning and, 
+							in particular, classification. They were the Wine Recognition Data set 
+							(Forina 1998), Wine Quality data set (Cortez, et al. 2009), and the 
+							Wisconsin Diagnostic Breast Cancer data set (Lichman 2013). The Wine 
+							Recognition Data set has 178 instances with 13 features including the 
+							label feature. This data set was designed for the prediction of the 
+							location of the production of the wine. The label feature was the 
+							original three locations. For the reason of computational time cost, 
+							these were grouped into a binary label with location 1 being the 
+							positive label and location 2 and 3 being the negative label. 
+							The Wine Quality data set has 4898 instances with 12 features 
+							including the label feature. The feature label originally was 
+							a discrete ranking from 0 to 10 however due to time and 
+							computational time cost this was grouped into a binary label 
+							where the positive label was all scores above and including 5. 
+							The Wisconsin Diagnostic Breast Cancer data set has 699 instances 
+							and 10 usable features including the label feature. All data 
+							processing was done in Jupyter Notebook using python 2.7. 
+							For the SVM and Decision Tree algorithms scikit-learn methods 
+							were used. The KNN algorithm was hand coded. The hyper parameters 
+							for these algorithms were tuned by being run for a variety of different 
+							hyper parameters. Those with the presumed best generalization were 
+							chosen to be used. While tuning these parameters fivefold 
+							cross-validation was used for all models. For the SVM two different 
+							kernels were used: linear and RBF (Radial Basis Function). For the 
+							training of parameters C and gamma for the RBF SVM a method similar to 
+							grid search was used. The difference was the testing values of C 
+							were not uniformly spaced. The output of one of these grid searches 
+							is shown in figure 1. After the parameters were tuned the testing 
+							accuracy was found with a variety of different training testing ratios. 
+							For the wine location and breast cancer data sets training/testing ratios 
+							from 0.1 to 0.9 increasing at an interval of 0.1 were found. This is because 
+							they were shorter and fit the study’s time requirements. However, for the wine 
+							quality dataset the only training/testing ratios are from 0.6 to 0.8 due to 
+							the size of the dataset and therefore the computational time cost. 
+						</p>
+						<h3>Results</h3>
+						<p>
+							After each algorithm’s hyper-parameters were tuned to best classify 
+							the data using accuracy produced from a cross-validation, each 
+							algorithm was then run on the dataset with a random 60/40 
+							training/testing split. The algorithm that performed best on 
+							average across the datasets was the linear SVM with an average 
+							accuracy of 0.97. The SVM RBF would have taken second had it not 
+							been for the Wine Recognition data set. Instead KNN came in 
+							second with an average accuracy of 0.946. Decision Trees came 
+							in third with an average accuracy of 0.943. In last came the 
+							RBF SVM with an accuracy of 0.872. The RBF SVM had the greatest 
+							discrepancy from the Caruana and Niculescu-Mizil (2006) paper. 
+							They had found that regardless of Kernel SVMs would have at 
+							least been ranked above Decision Trees.
+						</p>
+						<p>
+							A variety of different training/testing ratios were used 
+							on each classifier. The purpose of this was to show the 
+							general trend of the training/testing split on the 
+							accuracy. The breakdown by the individual classifier 
+							better illustrates the general trend than the average 
+							over all the classifiers. This trend could have been 
+							shown better if there had been a normalization step before 
+							averaging. 
+						</p>
+						<h3>Conclusion</h3>
+						<p>
+							From this investigation, it appears linear SVMs have the 
+							best accuracy when classifying data in general. However, 
+							this may be due to the limited number of algorithms being 
+							used for this investigation. The Caruana and Niculescu-Mizil(2006) 
+							paper suggests that the best algorithm would be a boosted decision 
+							tree. It must be considered however that recently ANN’s have made 
+							significant advances and it is likely would vastly out perform any 
+							algorithm in this paper or the Caruana and Niculescu-Mizil paper. 
+						</p>
+						<p>
+							With respect to the training/testing ratio variation, it should 
+							be noted that while on average the accuracy increases as the ratio 
+							increases that this may not generalize to future test data because 
+							of the potential for increased variability in real world test data. 
+						</p>
+						<h3>References</h3>
+						<p>
+							Caruana, Rich, and Alexandru Niculescu-Mizil. "An Empirical 
+							Comparison of Supervised Learning Algorithms." Proceedings 
+							of the 23rd International Conference on Machine Learning (2006): 
+							n. pag. Web. 16 June 2016.
+						</p>
+						<h4>Wine Quality Data Set</h4>
+						<p>P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. 
+							Modeling wine preferences by data mining from physicochemical 
+							properties. In Decision Support Systems, Elsevier, 
+							47(4):547-553, 2009.
+						</p>
+						<h4>Wine (location) Data Set</h4>
+						<p>Forina, M. et al, PARVUS - 
+							An Extendible Package for Data Exploration, Classification and Correlation. 
+							Institute of Pharmaceutical and Food Analysis and Technologies, Via Brigata Salerno, 
+							16147 Genoa, Italy. 
+						</p>
+						<h4>Wisconsin Breast Cancer Data Set</h4>
+						<p>Lichman, M. (2013). UCI Machine Learning Repository [<a href="http://archive.ics.uci.edu/ml">http://archive.ics.uci.edu/ml</a>]. 
+							Irvine, CA: University of California, School of Information and Computer Science.
+						</p>
+
+
+						
 					</div>
 				</div>
 			</div>
