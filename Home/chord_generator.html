@@ -103,6 +103,28 @@
 					<div class="col-md-7 text-left">
 						<h2>Markov Chain Chord Progression Generator</h2>
 						<p>Implemented Markov chain to create and play new chord progressions. Built the dataset from listings of common progressions. Utilized python and pyaudio for sound generation</p>
+						<p>This is a project about chord progression generation using Markov Chains. 
+							For a proof of concept I made a small dataset using data from
+							 <a href= "https://www.hooktheory.com/theorytab/common-chord-progressions">
+								hook theory</a>,
+							 <a href="https://takelessons.com/blog/piano-chord-progressions-z06">takelessons</a>,
+							 <a href="https://globalguitarnetwork.com/common-chord-progressions/">globalguitarnetwork</a>, and 
+							 <a href="http://openmusictheory.com/contents.html">openmusictheory</a>.
+							I made the dataset by hand compiling the chord progressions these sites 
+							said were the most popular. A better system would use a more statistically 
+							valid dataset.
+							I made a transition matrix of the chord progressions. I wrote a small python 
+							script to traverse the transition matrix starting from a random chord. Then 
+							I used pyaudio to generate chords sounds. 
+							Below you can hear a progression of four chords generated from the markov 
+							chain by pressing the play button. 
+						</p>
+						<p>I wanted to do this project because I was interested what chords were the 
+							most pleasing from a western cultural standpoint. I was also interested 
+							in what intervals between chords commonly occurred in progressions. 
+							These are useful for gaining a better understanding of the underlying
+							 principles of what makes a particular song compelling. 
+						</p>
 					</div>
 				</div>
 			</div>
