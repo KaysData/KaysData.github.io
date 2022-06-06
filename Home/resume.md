@@ -4,7 +4,7 @@ Kay-Ayala@protonmail.com \- (415) 328-9372 \- Novato, California \- [Github](ht
 
 
 ### Summary
-I am a Data Scientist with experience in NLP. I am fluent in building machine learning pipelines for business objectives. This includes querying, cleaning, and exploring data, building and tuning machine learning and statistical models, as well as building dashboards, and reports. My experience ranges from computer vision to time series analysis. 
+I am a Data Scientist with NLP experience. I am fluent in building machine learning pipelines for business objectives. This includes querying, cleaning, and exploring data, building and tuning machine learning and statistical models, as well as building dashboards, and reports. My work ranges from computer vision to time series analysis.
 
 ### Experience
 
