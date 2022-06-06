@@ -1,6 +1,6 @@
 ## Kay Ayala
 
-Kay-Ayala@protonmail.com \- (415) 328-9372 \- Novato, California \- [Github](https://kaysdata.github.io/) [LinkedIn](https://kaysdata.github.io/) [Website](https://kaysdata.github.io/)
+Kay-Ayala@protonmail.com \- (415) 328-9372 \- Novato, California \- [Github](https://kaysdata.github.io/) [LinkedIn](https://kaysdata.github.io/) [Website](https://kaysdata.github.io/) [Printable Resume](https://kaysdata.github.io/Home/Kays-Resume-6-6-2022.pdf)
 
 
 ### Summary
