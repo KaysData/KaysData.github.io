@@ -9,7 +9,7 @@ I am a Data Scientist with NLP experience. I am fluent in building machine learn
 ### Experience
 
 #### Data Scientist for AT&T while at Luxoft(DXC)
-Sept 2020 – Jun 2021
+Sept 2021 – Jun 2022
 
 * Data Scientist on the “Insights Engine” **NLP Team**
 * **NLP** - Emergency zero shot **classification** using **HuggingFace**
